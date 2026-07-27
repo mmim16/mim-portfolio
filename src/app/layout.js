@@ -1,5 +1,7 @@
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,9 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${cormorant.variable}`}
-      >
+        className={`${inter.variable} ${cormorant.variable}`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

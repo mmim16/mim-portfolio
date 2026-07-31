@@ -57,7 +57,7 @@ const experience = [
 
   {
     company: "Atlantic City Electric",
-    role: "Revenue and Finance Intern at the City Hall of Atlantic Cit",
+    role: "Revenue and Finance Intern at the City Hall of Atlantic City",
     duration: "Jun 2023 - Aug 2023",
     description:
       "Entered 400+ tow lot records into the system, Matched invoices to purchase orders, Calculated total money in purchase orders, Filed & organized documents",
